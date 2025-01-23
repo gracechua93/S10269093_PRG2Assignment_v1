@@ -8,4 +8,9 @@ class NORMFlight : Flight
     {
 
     }
+
+    public override string ToString()
+    {
+
+    }
 }
