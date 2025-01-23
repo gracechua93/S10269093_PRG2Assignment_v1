@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Flight
+abstract class Flight
 {
 	// properties
 	public string FlightNumber { get; set; }
@@ -20,6 +20,8 @@ public class Flight
         ExpectedTime = et;
         Status = s;
     }
+
+    public abstract double CalculateFees() { }
 
     public override ToString()
     {
