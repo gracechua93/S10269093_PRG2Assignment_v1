@@ -23,7 +23,7 @@ abstract class Flight
 
     public abstract double CalculateFees() { }
 
-    public override ToString()
+    public override string ToString()
     {
         return "Flight Number: " + FlightNumber + 
             "\nOrigin: " + Origin + "\nDestination: " + 
