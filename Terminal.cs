@@ -60,7 +60,7 @@ class Terminal
         }
     }
 
-    public override ToString()
+    public override string ToString()
     {
         return "Terminal: " + TerminalName;
     }
