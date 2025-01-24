@@ -1,67 +1,72 @@
 ﻿using System;
+using System.Collections.Generic;
 
-class Terminal
+namespace S10269093_PRG2Assignment
 {
-    public string TerminalName { get; set; }
-    public Dictonary<string, Airline> Airlines { get; set; } = new Dictonary<string, Airline>();
-    public Dictonary<string, Flight> Flights { get; set; } = new Dictonary<string, Flight>();
-    public Dictonary<string, BoardingGate> BoardingGate { get; set; } = new Dictonary<string, BoardingGate>();\
-    public Dictonary<string, double> GateFees { get; set; } = new Dictonary<string, double>();
-    
-    public Terminal() { }
-
-    public Terminal(string t, Dictonary<string, Airline> a, Dictonary<string, Flight> f, Dictonary<string, BoardingGate> bg, Dictonary<string, double> gf)
+    class Terminal
     {
-        TerminalName = t;
-        Airlines = a;
-        Flights = f;
-        BoardingGate = bg;
-        GateFees = gf;
-    }
+        public string TerminalName { get; set; }
+        public Dictionary<string, Airline> Airlines { get; set; } = new Dictionary<string, Airline>();
+        public Dictionary<string, Flight> Flights { get; set; } = new Dictionary<string, Flight>();
+        public Dictionary<string, BoardingGate> BoardingGate { get; set; } = new Dictionary<string, BoardingGate>();
+        public Dictionary<string, double> GateFees { get; set; } = new Dictionary<string, double>();
 
-    // methods
-    public bool AddAirline(Airline a)
-    {
-        if (!Airlines.ContainsKey(a.Code))
+        public Terminal() { }
+
+        public Terminal(string t, Dictionary<string, Airline> a, Dictionary<string, Flight> f, Dictionary<string, BoardingGate> bg, Dictionary<string, double> gf)
         {
-            Airlines[a.Code] = a;
-            return true;
+            TerminalName = t;
+            Airlines = a;
+            Flights = f;
+            BoardingGate = bg;
+            GateFees = gf;
         }
-        return false;
-    }
 
-    public bool AddBoardingGate(BoardingGate gate) 
-    {
-        if (!BoardingGates.ContainsKey(gate.GateName))
+        // methods
+        public bool AddAirline(Airline a)
         {
-            BoardingGates[gate.GateName] = gate;
-            return true;
-        }
-        return false;
-    }
-
-    public Airline GetAirlineFromFlight(Flight f) 
-    {
-        foreach (Airline a in Airlines.Values)
-        {
-            if (a.Flights.ContainsKey(f.FlightNumber))
+            if (!Airlines.ContainsKey(a.Code))
             {
-                return a;
+                Airlines[a.Code] = a;
+                return true;
+            }
+            return false;
+        }
+
+        public bool AddBoardingGate(BoardingGate gate)
+        {
+            if (!BoardingGate.ContainsKey(gate.GateName))
+            {
+                BoardingGate[gate.GateName] = gate;
+                return true;
+            }
+            return false;
+        }
+
+        public Airline GetAirlineFromFlight(Flight f)
+        {
+            foreach (Airline a in Airlines.Values)
+            {
+                if (a.Flights.ContainsKey(f.FlightNumber))
+                {
+                    return a;
+                }
+            }
+
+            return null;
+        }
+
+        public void PrintAirlineFees()
+        {
+            foreach (Airline a in Airlines.Values)
+            {
+                Console.WriteLine($"Airline: {a.Name}, Fees: {a.CalculateFees()}");
             }
         }
-        Console.Writeline("Unable to find such airline.");
-    }
 
-    public void PrintAirlineFees()
-    {
-        foreach (Airline a in Airlines.Values)
+        public override string ToString()
         {
-            Console.WriteLine($"Airline: {a.Name}, Fees: {a.CalculateFees()}");
+            return "Terminal: " + TerminalName;
         }
-    }
-
-    public override string ToString()
-    {
-        return "Terminal: " + TerminalName;
     }
 }

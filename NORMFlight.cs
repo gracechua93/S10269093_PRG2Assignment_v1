@@ -1,23 +1,28 @@
 ﻿using System;
 
-class NORMFlight : Flight
+namespace S10269093_PRG2Assignment
 {
-    public NORMFlight(string fN, string o, string d, datetime et, string s) : base(fN, o, d, et, s) { }
-
-    public override double CalculateFees()
+    class NORMFlight : Flight
     {
-        if (Origin == "SIN")
-        {
-            return 500 + 300;
-        }
-        else if (Destination == "SIN" )
-        {
-            return 800 + 300;
-        }
-    }
+        public NORMFlight(string fN, string o, string d, DateTime et, string s) : base(fN, o, d, et, s) { }
 
-    public override string ToString()
-    {
-        return base.ToString() + "Normal Flight";
+        public override double CalculateFees()
+        {
+            if (Origin == "SIN")
+            {
+                return 500 + 300;
+            }
+            else if (Destination == "SIN")
+            {
+                return 800 + 300;
+            }
+
+            return 0;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "Normal Flight";
+        }
     }
 }

@@ -1,36 +1,39 @@
 ﻿using System;
 
-public class LWTTFlight : Flight
+namespace S10269093_PRG2Assignment
 {
-    public double RequestFee { get; set; }
-
-    public LWTTFlight() : base() { }
-
-    public LWTTFlight(string fN, string o, string d, datetime et, string s, double rF) : base(fN, o, d, et, s)
+    class LWTTFlight : Flight
     {
-        RequestFee = rF;
-    }
+        public double RequestFee { get; set; }
 
-    public override double CalculateFees()
-    {
-        double fees = 0;
-        if (Origin == "SIN")
+        public LWTTFlight() : base() { }
+
+        public LWTTFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et, s)
         {
-            fees = 500 + 300;
-        }
-        else if (Destination == "SIN")
-        {
-            fees = 800 + 300;
+            RequestFee = rF;
         }
 
-        RequestFee = 500;
-        fees += RequestFee;
-        return fees;
+        public override double CalculateFees()
+        {
+            double fees = 0;
+            if (Origin == "SIN")
+            {
+                fees = 500 + 300;
+            }
+            else if (Destination == "SIN")
+            {
+                fees = 800 + 300;
+            }
 
-    }
+            RequestFee = 500;
+            fees += RequestFee;
+            return fees;
 
-    public override string ToString()
-    {
-        return base.ToString() + "LWTT Flight";
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "LWTT Flight";
+        }
     }
 }

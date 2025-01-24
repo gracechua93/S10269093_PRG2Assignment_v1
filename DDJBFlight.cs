@@ -1,36 +1,39 @@
 ﻿using System;
 
-public class DDJBFlight : Flight
+namespace S10269093_PRG2Assignment
 {
-    public double RequestFee { get; set; }
-
-    public DDJBFlight() : base() { }
-
-    public DDJBFlight(string fN, string o, string d, datetime et, string s, double rF) : base(fN, o, d, et)
+    class DDJBFlight : Flight
     {
-        RequestFee = rF;
-    }
+        public double RequestFee { get; set; }
 
-    public override double CalculateFees()
-    {
-        double fees = 0;
-        if (Origin == "SIN")
+        public DDJBFlight() : base() { }
+
+        public DDJBFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et, s)
         {
-            fees = 500 + 300;
-        }
-        else if (Destination == "SIN")
-        {
-            fees = 800 + 300;
+            RequestFee = rF;
         }
 
-        RequestFee = 300;
-        fees += RequestFee;
-        return fees;
+        public override double CalculateFees()
+        {
+            double fees = 0;
+            if (Origin == "SIN")
+            {
+                fees = 500 + 300;
+            }
+            else if (Destination == "SIN")
+            {
+                fees = 800 + 300;
+            }
 
-    }
+            RequestFee = 300;
+            fees += RequestFee;
+            return fees;
 
-    public override string ToString()
-    {
-        return base.ToString() + "DDJB Flight";
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "DDJB Flight";
+        }
     }
 }
