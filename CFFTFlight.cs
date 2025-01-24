@@ -12,11 +12,24 @@ class CFFTFlight : Flight
 
     public override double CalculateFees()
     {
+        double fees = 0;
+        if (Origin == "SIN")
+        {
+            fees = 500 + 300;
+        }
+        else if (Destination == "SIN")
+        {
+            fees = 800 + 300;
+        }
+
+        RequestFee = 150;
+        fees += RequestFee;
+        return fees;
 
     }
 
     public override string ToString()
     {
-
+        return base.ToString() + "CFFT Flight";
     }
 }
