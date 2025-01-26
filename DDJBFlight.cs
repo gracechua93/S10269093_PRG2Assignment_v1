@@ -8,7 +8,7 @@ namespace S10269093_PRG2Assignment
 
         public DDJBFlight() : base() { }
 
-        public DDJBFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et, s)
+        public DDJBFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et)
         {
             RequestFee = rF;
         }
