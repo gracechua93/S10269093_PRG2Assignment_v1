@@ -8,8 +8,9 @@ namespace S10269093_PRG2Assignment
 
         public LWTTFlight() : base() { }
 
-        public LWTTFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et, s)
+        public LWTTFlight(string fN, string o, string d, DateTime et, string s, double rF) : base(fN, o, d, et)
         {
+            Status = s; // Assign Status here
             RequestFee = rF;
         }
 
@@ -28,7 +29,6 @@ namespace S10269093_PRG2Assignment
             RequestFee = 500;
             fees += RequestFee;
             return fees;
-
         }
 
         public override string ToString()
