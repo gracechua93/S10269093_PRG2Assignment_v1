@@ -10,6 +10,8 @@ namespace S10269093_PRG2Assignment
         public string Destination { get; set; }
         public DateTime ExpectedTime { get; set; }
         public string Status { get; set; } // Add the Status property
+        public BoardingGate BoardingGate { get; set; }
+
 
         // Constructors
         public Flight() { }

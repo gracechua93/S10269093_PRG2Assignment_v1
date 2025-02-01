@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\lwttflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:lwttflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\airlines.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:airlines.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\boardinggates.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:boardinggates.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\flights.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:flights.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\flights.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:flights.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|c:\\users\\user\\source\\repos\\s10269093_prg2assignment_v1\\boardinggate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:boardinggate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\lwttflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8B4615-0E0F-4D35-8B0C-F813B556802A}|S10269093_PRG2Assignment.csproj|solutionrelative:lwttflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +38,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "airlines.csv",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\airlines.csv",
+              "RelativeDocumentMoniker": "airlines.csv",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\airlines.csv",
+              "RelativeToolTip": "airlines.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-02-01T02:00:37.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "boardinggates.csv",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\boardinggates.csv",
+              "RelativeDocumentMoniker": "boardinggates.csv",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\boardinggates.csv",
+              "RelativeToolTip": "boardinggates.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-02-01T02:00:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardingGate.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\BoardingGate.cs",
+              "RelativeDocumentMoniker": "BoardingGate.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\BoardingGate.cs",
+              "RelativeToolTip": "BoardingGate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T01:45:12.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LWTTFlight.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\LWTTFlight.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\LWTTFlight.cs",
               "RelativeDocumentMoniker": "LWTTFlight.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\LWTTFlight.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\LWTTFlight.cs",
               "RelativeToolTip": "LWTTFlight.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T09:20:19.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T09:20:19.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "flights.csv",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\flights.csv",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\flights.csv",
               "RelativeDocumentMoniker": "flights.csv",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\flights.csv",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\flights.csv",
               "RelativeToolTip": "flights.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -56,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\Flight.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\Flight.cs",
               "RelativeDocumentMoniker": "Flight.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\Flight.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\Flight.cs",
               "RelativeToolTip": "Flight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T09:16:30.062Z",
               "EditorCaption": ""
@@ -71,18 +125,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\S10269093_PRG2Assignment_v1\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\S10269093_PRG2Assignment_v1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T06:01:02.568Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
