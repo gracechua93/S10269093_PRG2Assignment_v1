@@ -65,7 +65,7 @@ class Program
 
     static void LoadFlights(Dictionary<string, Flight> flightDict, Dictionary<string, Airline> airlineDict)
 {
-    // Example data loading (you can replace this with file reading or database retrieval logic)
+    // need to load from csv
     airlineDict["SQ"] = new Airline("SQ", "Singapore Airlines");
     flightDict["SQ001"] = new Flight("SQ001", "Singapore", "Tokyo", DateTime.Parse("01/02/2025 12:00"));
     flightDict["SQ002"] = new Flight("SQ002", "Singapore", "New York", DateTime.Parse("01/02/2025 18:00"));
@@ -73,7 +73,7 @@ class Program
 
 static void LoadBoardingGates(Dictionary<string, BoardingGate> boardingGateDict)
 {
-    // Example data loading
+    // need to load from csv
     boardingGateDict["A1"] = new BoardingGate("A1", true, true, false);
     boardingGateDict["B1"] = new BoardingGate("B1", false, true, true);
 }
